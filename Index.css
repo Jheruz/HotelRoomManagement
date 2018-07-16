@@ -1,0 +1,267 @@
+#headeragain{
+	width:100%;
+	height:25%;
+	background-image:url('Hroom Pic/head.jpg');
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+#headeragainDark{
+	width:100%;
+	height:25%;
+	background-image:url('Hroom Pic/head_dark.jpg');
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+#headeragainWhite{
+	width:100%;
+	height:25%;
+	background-image:url('Hroom Pic/head_white.jpg');
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+#hideThis{
+	display:none;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:blue;
+	text-decoration:none;
+}
+td{
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	font-size:20px;
+}
+#table th{
+    background-color: Black;
+	border-radius:5px;
+	padding:5px;
+}
+#table tr:nth-child(even) {
+    background-color: #eee;
+}
+#table tr:nth-child(odd) {
+   background-color:#fff;
+}
+.kaliwa{
+	padding-top:20px;
+	float:left;
+	width:50%;
+	font-size:50px;
+}
+.kanan{
+	padding-top:20px;
+	float:right;
+	width:50%;
+	font-size:50px;
+}
+#content{
+	width:100%;
+	background-color:#2f2f2f;
+	text-align:center;
+}
+#bodycontent{
+	width:70%;
+	background-color:white;
+	text-align:center;
+	border-radius:10px;
+}
+#bodycontent a{
+	color:black;
+}
+select{
+	border-radius:10px;
+}
+#bodycontent a:hover{
+	color:blue;
+}
+input[type="submit"]{
+	height:30px;
+	width:100px;
+	margin-right: 20px;
+	border: 3px double red;
+	border-color: red;
+}
+input[type="submit"]:hover {
+  border-color:blue;
+}
+input[type="text"]{
+	border-radius:3px;
+	height:30px;
+}
+input[type="password"]{
+	border-radius:3px;
+	height:30px;
+}
+span.greet{
+	text-transform:UPPERCASE;
+	font-family:Haettenschweiler;
+	font-size:90px;
+	color:#646363;
+}
+span.submenu{
+	color:white;
+	font-family:Haettenschweiler;
+	font-size:30px;
+}
+span.footer{
+	font-family:Haettenschweiler;
+	font-size:25px;
+}
+span.footer a{
+	color:black;
+}
+span.footer a:hover{
+	color:blue;
+}
+#normal{
+	width: 80%;
+	height: 10%;
+	background-color: blue;
+	margin-top:5px;
+	background:transparent;
+	font-family: Algerian;
+	padding-top: 10px;
+}
+#normal:hover{
+	background-color: blue;
+}
+#active{
+	width: 90%;
+	height: 7%;
+}
+#nameNdate{
+	text-align:left;
+}
+#rooms{
+	width:100%;
+	height:25%;
+}
+#list{
+	font-family:Haettenschweiler;
+}
+#sicon{
+	background-image: url('Hroom Pic/ribon.jpg');
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+}
+.printHeaderL{
+	float:left;
+	width:38%;
+}
+.printHeaderC{
+	width:30%;
+}
+
+.notif{
+	position:fixed;
+	right:1%;
+	width:4%;
+	height:8%;
+}
+.notif img{
+	width:100%;
+	height:100%;
+}
+.notif:hover{
+    cursor: pointer;
+	border:10px;
+}
+.notifView{
+	text-align:left;
+	position:fixed;
+	right:5%;
+	display:none;
+	width:25%;
+	background-color:white;
+	border-style:outset;
+}
+.notifView a{
+	color:black;
+}
+.notifView a:hover{
+	color:blue;
+}
+.notif span{
+    position:absolute;    
+    color:red;
+    font-size:35px;
+    font-weight:bold;
+    right:30%;
+    top:1px;
+}
+.notifdata{
+	border-style:outset;
+	width:98%;
+}
+.notifdata td{
+	padding:0px;
+}
+.notifdata:hover{
+	background-color:gray;
+    cursor: pointer;
+}
+.notifViewdata{
+	background-color:#D3D3D3;
+	border-style:outset;
+	width:98%;
+}
+.notifViewdata td{
+	padding:0px;
+}
+.notifViewdata:hover{
+	background-color:gray;
+    cursor: pointer;
+}
+.infoOfReport{
+	position:absolute;
+	display:none;
+    right:1px;
+}
+button{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:5px;
+	-webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+	outline: none;
+}
+button:hover{
+    cursor: pointer;
+	background-color:skyblue;
+	box-shadow: 5px 5px 5px #888888;
+	outline: none;
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input[type="button"]{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:5px;
+	outline: none;
+}
+input[type="button"]:hover{
+	cursor: pointer;
+	background-color:skyblue;
+	box-shadow: 5px 5px 5px #888888;
+	-webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+	outline: none;
+}
+input[type="button"]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
